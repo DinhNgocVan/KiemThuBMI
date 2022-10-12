@@ -11,8 +11,8 @@ public class BMI {
     }
 
     public BMI(float weight, float height) {
-        height = this.height;
-        weight = this.weight;
+        this.height = height;
+        this.weight = weight;
     }
 
     public float getHeight() {
